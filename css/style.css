@@ -39,7 +39,7 @@ body {
 }
 
 .home .home-content .image img {
-	max-width: 15rem;
+	max-width: 15.5rem;
 	border: 3px solid black;
 	border-radius: 50%;
 	margin-top: 2rem;
@@ -1662,6 +1662,7 @@ footer .creadit p {
 
 	footer .page a {
 		font-size: 1.5rem;
+		line-height: 1.5;
 	}
 
 	footer .creadit p {
