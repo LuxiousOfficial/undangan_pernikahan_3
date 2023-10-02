@@ -45,7 +45,7 @@ body {
 	margin-top: 2rem;
 	margin-bottom: 0.3rem;
 	transition: 0.5s;
-	animation: rommy 4s ease-in-out infinite;
+	animation: rommy 2s ease-in-out infinite;
 }
 
 @keyframes rommy {
@@ -1499,7 +1499,7 @@ footer .creadit p {
 
 	.home .date {
 		margin-top: 4rem;
-		margin-bottom: 5rem;
+		margin-bottom: 6rem;
 	}
 
 	.home .open-invitation {
