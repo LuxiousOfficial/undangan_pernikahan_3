@@ -1,0 +1,1665 @@
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: chocolate;
+	background-image: url(../img/5.jpg);
+}
+
+.home {
+	min-height: 100vh;
+	background-color: white;
+}
+
+.home .header {
+	display: flex;
+	padding: 1rem 7%;
+	background-image: url(../img/5.jpg);
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 1rem;
+	color: black;
+}
+
+.home .header h3 {
+	font-size: 2.5rem;
+	font-family: martian mono;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin: 0 0.5rem;
+}
+
+.home .home-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.home .home-content .image img {
+	max-width: 15rem;
+	border: 3px solid black;
+	border-radius: 50%;
+	margin-top: 2rem;
+	margin-bottom: 0.3rem;
+	transition: 0.5s;
+	animation: rommy 4s ease-in-out infinite;
+}
+
+@keyframes rommy {
+	0%{
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(-2.4rem);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+
+.home .acara {
+	text-align: center;
+	color: black;
+}
+
+.home .acara .wedding {
+	font-size: 2rem;
+	font-family: martian mono;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-bottom: 0.5rem;
+}
+
+.home .acara .name {
+	font-size: 2rem;
+	font-family: martian mono;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-bottom: 0.5rem;
+}
+
+.home .date {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.home .date .datee {
+	font-size: 1.3rem;
+	font-family: martian mono;
+	font-weight: bold;
+	color: black;
+	margin: 0 1rem;
+	border: 2px solid black;
+	padding: 0.5rem 3rem;
+	background-color: white;
+	border-radius: 1rem;
+}
+
+.home .date .month {
+	font-size: 1.3rem;
+	font-family: martian mono;
+	font-weight: bold;
+	color: black;
+	margin: 0 1rem;
+	border: 2px solid chocolate;
+	padding: 0.5rem 3rem;
+	border: 2px solid black;
+	border-radius: 1rem;
+}
+
+.home .date .years {
+	font-size: 1.3rem;
+	font-family: martian mono;
+	font-weight: bold;
+	color: black;
+	margin: 0 1rem;
+	border: 2px solid chocolate;
+	padding: 0.5rem 3rem;
+	border: 2px solid black;
+	border-radius: 1rem;
+}
+
+.home .open-invitation {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	text-align: center;
+	margin-top: 1.5rem;
+	background-image: url(../img/5.jpg);
+	padding: 0.8rem 7%;
+}
+
+.home .open-invitation a {
+	padding: 1rem 2rem;
+	border: 2px solid black;
+	border-radius: 1.5rem;
+	font-size: 1.5rem;
+	font-family: martian mono;
+	font-weight: bold;
+	text-transform: capitalize;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	transition: 0.5s;
+}
+
+.home .open-invitation a:hover {
+	background-color: chocolate;
+	color: white;
+}
+
+
+.gallery {
+	margin-top: 3rem;
+}
+
+.gallery .event {
+	padding: 2rem;
+	display: block;
+	justify-content: center;
+	align-items: center;
+}
+
+.gallery .event h2 {
+	text-align: center;
+	text-transform: capitalize;
+	font-family: martian mono;
+	font-weight: bold;
+	font-size: 4rem;
+	color: black;
+	margin-bottom: 3rem;
+}
+
+.gallery .event1 {
+	margin-top: 2rem;
+	margin: auto;
+	display: block;
+	border: 2px solid black;
+	border-radius: 2rem;
+	max-width: 50rem;
+	padding: 1rem 2rem;
+	background-color: white;
+	transition: 0.5s;
+}
+
+.gallery .event1 h3 {
+	margin-top: 3rem;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 2.3rem;
+	font-family: martian mono;
+	font-style: italic;
+	font-weight: bold;
+	color: black;
+}
+
+.gallery .event1 h4 {
+	margin-top: 2rem;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 1.5rem;
+	font-family: martian mono;
+	font-weight: bold;
+	color: black;
+}
+
+.gallery .event1 p {
+	margin: auto;
+	margin-top: 1.5rem;
+	text-align: center;
+	font-size: 1.5rem;
+	font-family: arial;
+	color: black;
+	max-width: 60rem;
+	line-height: 1.5;
+}
+
+.gallery .photo {
+	display: block;
+}
+
+.gallery .photo h2 {
+	margin-top: 5rem;
+	text-align: center;
+	text-transform: capitalize;
+	color: black;
+	font-size: 4rem;
+	font-weight: bold;
+	font-family: martian mono;
+}
+
+.gallery .gambar .container {
+	width: 100%;
+	margin: auto;
+	position: relative;
+	margin-top: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gallery .gambar .container .image1 {
+	display: block;
+}
+
+.gallery .gambar .container .image1 img {
+	border: 4px solid black;
+	margin-top: 2rem;
+	width: 20rem;
+	object-fit: cover;
+	border-radius: 2rem;
+	overflow: hidden;
+}
+
+.gallery .gambar .container .button1 {
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	width: 40%;
+	display: flex;
+	justify-content: space-between;
+	z-index: 5;
+}
+
+.gallery .gambar .container .button1 a {
+	width: 50px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	vertical-align: middle;
+	align-items: center;
+	cursor: pointer;
+	color: black;
+	background-color: white;
+	font-size: 30px;
+	user-select: none;
+}
+
+.gallery .gambar .container .button1 a:hover {
+	background-color: black;
+}
+
+.gallery .gambar .container .button1 .prev1 {
+	border-radius: 5px 0 0 5px;
+}
+
+.gallery .gambar .container .button1 .next1 {
+	border-radius: 0 5px 5px 0;
+}
+
+.gallery .gambar .container .dots1 {
+	text-align: center;
+	position: absolute;
+	bottom: -40px;
+	left: 44%;
+	background-color: none;
+	padding: 5px 10px;
+	height: 20px;
+	border-radius: 35px;
+}
+
+.gallery .gambar .container .dot1 {
+	cursor: pointer;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: white;
+	display: inline-block;
+	margin: 0 2px;
+}
+
+.gallery .gambar .container .active, .dot1:hover {
+	background-color: black;
+	transition: 0.5s ease;
+}
+
+.bride {
+	margin-top: 9rem;
+}
+
+.bride .opening .paragraph {
+	text-align: center;
+	font-size: 3rem;
+	font-family: martian mono;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 2rem;
+}
+
+.bride .opening .opening1 {
+	text-align: center;
+	font-size: 3rem;
+	font-family: arial;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 3rem;
+}
+
+.bride .opening .paragraph1 {
+	padding: 0 2rem;
+	margin: auto;
+	max-width: 60rem;
+	text-align: center;
+	font-size: 2.2rem;
+	font-family: arial;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 3rem;
+	line-height: 1.8;
+}
+
+.bride .opening .mean {
+	padding: 0 2rem;
+	margin: auto;
+	max-width: 50rem;
+	text-align: center;
+	font-size: 1.5rem;
+	font-family: arial;
+	font-weight: bold;
+	color: black;
+	line-height: 1.8;
+}
+
+.bride .bride-judul h2 {
+	margin-top: 5rem;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: martian mono;
+	font-size: 4rem;
+	font-weight: bold;
+	color: black;
+}
+
+.bride .bride1 {
+	margin-top: 3.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bride .bride1 .bride2 {
+	margin: auto;
+	display: block;
+	border: 2px solid black;
+	border-radius: 2rem;
+	width: 50rem;
+	padding: 0.1rem 2rem;
+	background-color: white;
+	transition: 0.5s;
+}
+
+.bride .bride1 .bride2 .bride-name {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bride .bride1 .bride2 .bride-name .name {
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 3.5rem;
+	font-weight: bold;
+	font-family: martian mono;
+	font-style: italic;
+	color: black;
+}
+
+.bride .bride1 .bride2 .line {
+	margin: 0 2rem;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 8rem;
+	font-weight: bold;
+	font-family: lucida;
+	font-style: italic;
+	color: black;
+}
+
+.bride .bride1 .bride2 .bride-man {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bride .bride1 .bride2 .bride-man img {
+	margin: auto;
+	max-width: 10.5rem;
+	border: 4px solid black;
+	border-radius: 50%;
+}
+
+.bride .bride1 .bride2 .son .son1 {
+	margin-top: 1rem;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 1.7rem;
+	font-family: arial;
+	color: black;
+}
+
+.bride .bride1 .bride2 .socialmedia {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bride .bride1 .bride2 .socialmedia a {
+	margin-top: 1rem;
+	font-size: 4rem;
+	text-decoration: none;
+	transition: 0.5s;
+	color: black;
+}
+
+.bride .bride1 .bride2 .socialmedia a:hover {
+	color: chocolate;
+}
+
+.bride .container1 {
+	width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bride .container1 .image2 {
+	display: block;
+	margin-top: 3.5rem;
+}
+
+.bride .container1 .image2 img {
+	border: 4px solid black;
+	margin: auto;
+	width: 20rem;
+	object-fit: cover;
+	border-radius: 2rem;
+	overflow: hidden;
+}
+
+.bride .container1 .button2 {
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	width: 40%;
+	display: flex;
+	justify-content: space-between;
+	z-index: 5;
+}
+
+.bride .container1 .button2 a {
+	width: 50px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	vertical-align: middle;
+	align-items: center;
+	cursor: pointer;
+	color: black;
+	background-color: white;
+	font-size: 30px;
+	user-select: none;
+}
+
+.bride .container1 .button2 a:hover {
+	background-color: black;
+}
+
+.bride .container1 .button2 .prev2 {
+	border-radius: 5px 0 0 5px;
+}
+
+.bride .container1 .button2 .next2 {
+	border-radius: 0px 5px 5px 0px;
+}
+
+.bride .container1 .dots2 {
+	text-align: center;
+	position: absolute;
+	bottom: -40px;
+	left: 44%;
+	background-color: none;
+	padding: 5px 10px;
+	height: 20px;
+	border-radius: 35px;
+}
+
+.bride .container1 .dot2 {
+	cursor: pointer;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: white;
+	display: inline-block;
+	margin: 0 2px;
+}
+
+.bride .container1 .active, .dot2:hover {
+	background-color: black;
+	transition: 0.5s ease;
+}
+
+.bride-woman .ring {
+	margin-top: 8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.5rem;
+	background-color: white;
+	
+}
+
+.bride-woman .ring img {
+	width: 10rem;
+
+}
+
+.bride-woman .bride-woman1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5rem;
+}
+
+.bride-woman .bride-woman1 .bride-woman2 {
+	border: 2px solid black;
+	border-radius: 2rem;
+	width: 50rem;
+	padding: 0.1rem 2rem;
+	background-color: white;
+	transition: 0.5s;
+}
+
+.bride-woman .bride-woman1 .bride-name {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: martian mono;
+	font-style: italic;
+	font-size: 3rem;
+	font-weight: bold;
+	color: black;
+}
+
+.bride-woman .bride-woman1 .bride-name .line {
+	margin: 0 2rem;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 8rem;
+	font-weight: bold;
+	font-family: lucida;
+	font-style: italic;
+	color: black;
+}
+
+.bride-woman .bride-woman1 .woman {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bride-woman .bride-woman1 .woman img {
+	max-width: 10.5rem;
+	border: 4px solid black;
+	border-radius: 50%;
+}
+
+.bride-woman .bride-woman1 .daughter {
+	margin-top: 1rem;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: arial;
+	font-size: 1.8rem;
+	color: black;
+}
+
+.bride-woman .bride-woman1 .socialmedia {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bride-woman .bride-woman1 .socialmedia a {
+	margin-top: 1rem;
+	text-decoration: none;
+	font-size: 4rem;
+	color: black;
+	transition: 0.5s;
+}
+
+.bride-woman .bride-woman1 .socialmedia a:hover {
+	color: chocolate;
+}
+
+.bride-woman .container3 {
+	width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bride-woman .container3 .image3 {
+	display: block;
+	margin-top: 3rem;
+}
+
+.bride-woman .container3 .image3 img {
+	border: 4px solid black;
+	margin: auto;
+	width: 20rem;
+	object-fit: cover;
+	border-radius: 2rem;
+	overflow: hidden;
+}
+
+.bride-woman .container3 .button3 {
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	width: 40%;
+	display: flex;
+	justify-content: space-between;
+	z-index: 5;
+}
+
+.bride-woman .container3 .button3 a {
+	width: 50px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	vertical-align: middle;
+	align-items: center;
+	cursor: pointer;
+	color: black;
+	background-color: white;
+	font-size: 30px;
+	user-select: none;
+}
+
+.bride-woman .container3 .button3 a:hover {
+	background-color: black;
+}
+
+.bride-woman .container3 .button3 .prev3 {
+	border-radius: 5px 0 0 5px;
+}
+
+.bride-woman .container3 .button3 .next3 {
+	border-radius: 0px 5px 5px 0px;
+}
+
+.bride-woman .container3 .dots3 {
+	text-align: center;
+	position: absolute;
+	bottom: -40px;
+	left: 44%;
+	background-color: none;
+	padding: 5px 10px;
+	height: 20px;
+	border-radius: 35px;
+}
+
+.bride-woman .container3 .dot3 {
+	cursor: pointer;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: white;
+	display: inline-block;
+	margin: 0 2px;
+}
+
+.bride-woman .container3 .active, .dot3:hover {
+	background-color: black;
+	transition: 0.5s ease;
+}
+
+.reception {
+	margin-top: 10rem;
+}
+
+.reception .street {
+	text-align: center;
+}
+
+.reception .street h2 {
+	text-transform: capitalize;
+	font-size: 4rem;
+	font-family: martian mono;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 3rem;
+}
+
+.reception .street .address {
+	padding: 0 2rem;
+	font-family: arial;
+	font-size: 2rem;
+	color: black;
+	text-transform: capitalize;
+	max-width: 50rem;
+	margin: auto;
+	line-height: 1.4;
+	margin-bottom: 2rem;
+}
+
+.reception .street p {
+	padding: 0 2rem;
+	font-family: arial;
+	font-size: 1.5rem;
+	color: black;
+	max-width: 50rem;
+	margin: auto;
+	line-height: 1.8;
+	margin-bottom: 2rem;
+}
+
+.reception .time {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.reception .time .akad {
+	margin: auto;
+	border: 2px solid black;
+	max-width: 50rem;
+	background-color: white;
+	color: black;
+	margin-bottom: 2rem;
+	padding: 2rem 1rem;
+	border-radius: 1.5rem;
+}
+
+.reception .time .akad h3 {
+	font-size: 2rem;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+}
+
+.reception .time .akad .time1 {
+	font-size: 1.5rem;
+	margin-bottom: 0.7rem;
+}
+
+.reception .time .akad .time2 {
+	font-size: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.reception .time .akad p {
+	font-size: 1.5rem;
+	line-height: 1.5;
+}
+
+.reception .time .akad1 {
+	margin: auto;
+	border: 2px solid black;
+	max-width: 50rem;
+	background-color: white;
+	color: black;
+	margin-bottom: 2rem;
+	padding: 2rem 1rem;
+	border-radius: 1.5rem;
+}
+
+.reception .time .akad1 h3 {
+	font-size: 2rem;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+}
+
+.reception .time .akad1 .time1 {
+	font-size: 1.5rem;
+	margin-bottom: 0.7rem;
+}
+
+.reception .time .akad1 .time2 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+	line-height: 1.5;
+}
+
+.reception .time .akad1 p {
+	font-size: 1.5rem;
+	line-height: 1.5;
+}
+
+.location {
+	margin-top: 7rem;
+}
+
+.location h2 {
+	text-align: center;
+	text-transform: capitalize;
+	font-family: martian mono;
+	font-size: 4rem;
+	font-weight: bold;
+	color: black;
+}
+
+.location .maps {
+	margin-top: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 7%;
+}
+
+.location .maps iframe {
+	width: 50rem;
+	height: 30rem;
+}
+
+.memory {
+	margin-top: 7rem;
+}
+
+.memory h2 {
+	text-align: center;
+	text-transform: capitalize;
+	color: black;
+	font-family: martian mono;
+	font-size: 4rem;
+	font-weight: bold;
+}
+
+.memory .container4 {
+	margin-top: 3rem;
+	width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.memory .container4 .image4 {
+	display: block;
+	margin-top: 2rem;
+}
+
+.memory .container4 .image4 img {
+	border: 4px solid black;
+	margin: auto;
+	width: 20rem;
+	object-fit: cover;
+	border-radius: 2rem;
+	overflow: hidden;
+}
+
+.memory .container4 .button4 {
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	width: 40%;
+	display: flex;
+	justify-content: space-between;
+	z-index: 5;
+}
+
+.memory .container4 .button4 a {
+	width: 50px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	vertical-align: middle;
+	align-items: center;
+	cursor: pointer;
+	color: black;
+	background-color: white;
+	font-size: 30px;
+	user-select: none;
+}
+
+.memory .container4 .button4 a:hover {
+	background-color: black;
+}
+
+.memory .container4 .button4 .prev4 {
+	border-radius: 5px 0px 0px 5px;
+}
+
+.memory .container4 .button4 .next4 {
+	border-radius: 0px 5px 5px 0px;
+}
+
+.memory .container4 .dots4 {
+	text-align: center;
+	position: absolute;
+	bottom: -40px;
+	left: 44%;
+	background-color: none;
+	padding: 5px 10px;
+	height: 20px;
+	border-radius: 35px;
+}
+
+.memory .container4 .dot4 {
+	cursor: pointer;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: white;
+	display: inline-block;
+	margin: 0 2px;
+}
+
+.memory .container4 .active, .dot4:hover {
+	background-color: black;
+	transition: 0.5s ease;
+}
+
+.memory .video h2 {
+	margin-top: 8rem;
+	text-transform: capitalize;
+	font-family: martian mono;
+	font-style: italic;
+	font-size: 4rem;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
+
+.memory .video .youtube {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 4rem;
+}
+
+.memory .video .youtube iframe {
+	width: 50rem;
+	height: 30rem;
+}
+
+footer {
+	margin-top: 8rem;
+	padding: 1rem 7%;
+	background-color: white;
+	text-align: center;
+	display: block;
+	align-items: center;
+	justify-content: center;
+}
+
+footer .socialmedia a {
+	color: black;
+	font-size: 2.8rem;
+	margin: 0 1rem;
+}
+
+footer .socialmedia a:hover {
+	color: chocolate;
+}
+
+footer .page {
+	margin-top: 1rem;
+}
+
+footer .page a {
+	font-size: 1.8rem;
+	font-weight: bold;
+	text-transform: capitalize;
+	text-decoration: none;
+	color: black;
+	margin: 1 1.5rem;
+}
+
+footer .page a:hover {
+	color: chocolate;
+}
+
+footer .creadit p {
+	margin-top: 0.7rem;
+	font-size: 1.5rem;
+	text-transform: capitalize;
+	color: black;
+	line-height: 1.5;
+}
+
+@media (max-width: 1920px) {
+	html {
+		font-size: 100%;
+	}
+}
+
+@media (max-width: 1366px) {
+	html {
+		font-size: 100%;
+	}
+}
+
+@media (max-width: 1200px) {
+	html {
+		font-size: 85%;
+	}
+
+	.home .header {
+		padding: 1.5rem 7%;
+		margin-bottom: 1.5rem;
+	}
+
+	.home .header h3 {
+		font-size: 2.6rem;
+	}
+
+	.home .header .and {
+		font-size: 2.6rem;
+	}
+
+	.home .header .woman {
+		font-size: 2.6rem;
+	}
+
+	.home .home-content .image img {
+		max-width: 19rem;
+	}
+
+	.home .acara .wedding {
+		font-size: 2.6rem;
+	}
+
+	.home .acara .name {
+		font-size: 2.6rem;
+		margin-bottom: 1rem;
+	}
+
+	.home .date .datee {
+		font-size: 2rem;
+	}
+
+	.home .date .month {
+		font-size: 2rem;
+	}
+
+	.home .date .years {
+		font-size: 2rem;
+	}
+
+	.home .open-invitation a {
+		font-size: 2rem;
+	}
+
+	.gallery .gambar .container .image1 img {
+		width: 25rem;
+	}
+
+	.gallery .gambar .container .button1 {
+		left: 28%;
+		width: 44%;
+	}
+
+	.gallery .gambar .container .button1 a {
+		height: 40px;
+	}
+
+	.gallery .gambar .container .dots1 {
+		left: 43%;
+	}
+
+	.bride .bride1 .bride2 {
+		width: 70rem;
+	}
+
+	.bride .container1 .image2 img {
+		width: 25rem;
+	}
+
+	.bride .container1 .button2 {
+		left: 28%;
+		width: 44%;
+	}
+
+	.bride .container1 .image2 .button2 a {
+		height: 40px;
+	}
+
+	.bride .container1 .dots2 {
+		bottom: -40px;
+		left: 42%;
+	}
+
+	.bride-woman .bride-woman1 .bride-woman2 {
+		width: 70rem;
+	}
+
+	.bride-woman .container3 .image3 img {
+		width: 25rem;
+	}
+
+	.bride-woman .container3 .button3 {
+		left: 28%;
+		width: 44%;
+	}
+
+	.bride-woman .container3 .dots3 {
+		left: 42%;
+	}
+
+	.reception .street p {
+		max-width: 65rem;
+	}
+
+	.location .maps iframe {
+		width: 65rem;
+		height: 30rem;
+	}
+
+	.memory .container4 .image4 img {
+		width: 25rem;
+	}
+
+	.memory .container4 .button4 {
+		left: 28%;
+		width: 44%;
+	}
+
+	.memory .container4 .dots4 {
+		bottom: -40px;
+		left: 42%;
+	}
+
+	.memory .video .youtube iframe {
+		width: 65rem;
+		height: 30rem;
+	}
+
+	footer .socialmedia a {
+		font-size:  2.8rem;
+	}
+
+	footer .page a {
+		font-size: 1.8rem;
+	}
+
+	footer .creadit p {
+		font-size: 1.8rem;
+	}
+
+}
+
+@media (max-width: 992px) {
+	html {
+		font-size: 75%;
+	}
+
+	.home .header {
+		margin-bottom: 2rem;
+	}
+
+	.home .header h3 {
+		font-size: 3.5rem;
+	}
+
+	.home .header .and {
+		font-size: 3.5rem;
+	}
+
+	.home .header .woman {
+		font-size: 3.5rem;
+	}
+
+	.home .home-content .image img {
+		max-width: 21.5rem;
+	}
+
+	.home .acara .wedding {
+		font-size: 3rem;
+	}	
+
+	.home .acara .name {
+		font-size: 3rem;
+	}
+
+	.home .date .datee {
+		font-size: 2rem;
+	}
+
+	.home .date .month {
+		font-size: 2rem;
+	}
+
+	.home .date .years {
+		font-size: 2rem;
+	}
+
+	.home .open-invitation {
+		padding: 1.5rem 7%;
+	}
+
+	.home .open-invitation a {
+		font-size: 2rem;
+	}
+
+	.gallery .event1 {
+		width: 70rem;
+	}
+
+	.gallery .gambar .container .button1 {
+		left: 26%;
+		width: 48%;
+	}
+
+	.gallery .gambar .container .button1 a {
+		height: 40px;
+	}
+
+	.bride .opening .mean {
+		max-width: 70rem;
+	}
+
+	.bride .bride1 .bride2 {
+		width: 65rem;
+	}
+
+	.bride .container1 .botton2 {
+		left: 26%;
+		width: 48%;
+	}
+
+	.bride .container1 .dots2 {
+		bottom: -40px;
+		left: 42%;
+	}
+
+	.bride-woman .bride-woman1 .bride-woman2 {
+		width: 65rem;
+	}
+
+	.location .maps iframe {
+		width: 65rem;
+		height: 30rem;
+	}
+
+	.memory .video .youtube iframe {
+		width: 65rem;
+		height: 30rem;
+	}
+
+	footer .socialmedia a {
+		font-size:  2.8rem;
+	}
+
+	footer .page a {
+		font-size: 1.8rem;
+	}
+
+	footer .creadit p {
+		font-size: 1.8rem;
+	}
+
+}
+
+
+@media (max-width: 768px) {
+	html {
+		font-size: 63%;
+	}
+
+	.home .header {
+		padding: 1.5rem 7%;
+		margin-bottom: 2rem;
+	}
+
+	.home .header h3 {
+		font-size: 3.5rem;
+	}
+
+	.home .header .and {
+		font-size: 3.5rem;
+	}
+
+	.home .header .woman {
+		font-size: 3.5rem;
+	}
+
+	.home .home-content .image img {
+		max-width: 26rem;
+		margin-bottom: 1rem;
+	}
+
+	.home .acara .wedding {
+		font-size: 3.5rem;
+		margin-bottom: 1rem;
+	}
+
+	.home .acara .name {
+		font-size: 3.5rem;
+		margin-bottom: 1rem;
+	}
+
+	.home .date .datee {
+		font-size: 2.6rem;
+	}
+
+	.home .date .month {
+		font-size: 2.6rem;
+	}
+
+	.home .date .years {
+		font-size: 2.6rem;
+	}
+
+	.home .open-invitation {
+		margin-top: 3rem;
+		padding: 1.5rem 7%;
+	}
+
+	.home .open-invitation a {
+		font-size: 2.4rem;
+	}
+
+	.gallery .event1 {
+		width: 60rem;
+	}
+
+	.gallery .gambar .container .image1 img {
+		width: 26rem;
+	}
+
+	.gallery .gambar .container .button1 {
+		left: 23%;
+		width: 54%;
+	}
+
+	.gallery .gambar .container .dots1 {
+		left: 40%;
+	}
+
+	.bride .opening .mean {
+		max-width: 65rem;
+	}
+
+	.bride .bride1 .bride2 {
+		width: 55rem;
+	}
+
+	.bride .container1 .image2 img {
+		width: 26rem;
+	}
+
+	.bride .container1 .button2 {
+		left: 23%;
+		width: 54%;
+	}
+
+	.bride .container1 .dots2 {
+		left: 40%;
+	}
+
+	.bride-woman .bride-woman1 .bride-woman2 {
+		width: 55rem;
+	}
+
+	.bride-woman .container3 .image3 img {
+		width: 26rem;
+	}
+
+	.bride-woman .container3 .button3 {
+		left: 23%;
+		width: 54%;
+	}
+
+	.bride-woman .container3 .dots3 {
+		left: 40%;
+	}
+
+	.reception .time .akad {
+		max-width: 33rem;
+	}
+
+	.reception .street p {
+		max-width: 60rem;
+	}
+
+	.location .maps iframe {
+		width: 50rem;
+		height: 30rem;
+	}
+
+	.memory .container4 .image4 img {
+		width: 26rem;
+	}
+
+	.memory .container4 .button4 {
+		left: 23%;
+		width: 54%;
+	}
+
+	.memory .container4 .dots4 {
+		left: 40%;
+	}
+
+	.memory .video .youtube iframe {
+		width: 50rem;
+		height: 30rem;
+	}
+
+	footer .socialmedia a {
+		font-size:  2.8rem;
+	}
+
+	footer .page a {
+		font-size: 1.8rem;
+	}
+
+	footer .creadit p {
+		font-size: 1.8rem;
+	}
+}
+
+@media (max-width: 450px) {
+	html {
+		font-size: 53%;
+	}
+
+	.home {
+		min-height: 90vh;
+	}
+
+	.home .header {
+		padding: 2rem;
+		display: block;
+		text-align: center;
+		margin-bottom: 5rem;
+	}
+
+	.home .header h3 {
+		font-size: 3.8rem;
+	}
+
+	.home .header .and {
+		font-size: 3.8rem;
+	}
+
+	.home .header .woman {
+		font-size: 3.8rem;
+	}
+
+	.home .acara {
+		margin-top: 3.5rem;
+	}
+
+	.home .acara .wedding {
+		font-size: 3.7rem;
+		margin-bottom: 1rem;
+	}
+
+	.home .acara .name {
+		font-size: 3.7rem;
+	}
+
+	.home .date {
+		margin-top: 4rem;
+		margin-bottom: 5rem;
+	}
+
+	.home .open-invitation {
+		padding: 2rem;
+	}
+
+	.home .open-invitation a {
+		font-size: 2rem;
+	}
+
+	.gallery .event1 {
+		width: 38rem;
+	}
+
+	.gallery .event h3 {
+		margin-bottom: 1rem;
+	}
+
+	.gallery .event h4 {
+		margin: auto;
+		max-width: 45rem;
+		line-height: 1.3;
+		margin-bottom: 1rem;
+	}
+
+	.gallery .event p {
+		max-width: 45rem;
+		line-height: 1.3;
+	}
+
+	.gallery .gambar .container .image1 img {
+		width: 30rem;
+	}
+
+	.gallery .gambar .container .button1 {
+		left: 6%;
+		width: 89%;
+	}
+
+	.gallery .gambar .container .button1 a {
+		width: 45px;
+		height: 40px;
+	}
+
+	.gallery .gambar .container .dots1 {
+		left: 31%;
+	}
+
+	.gallery .gambar .container .dot1 {
+		width: 15px;
+		height: 15px;
+	}
+
+	.bride .opening .paragraph1 {
+		max-width: 45rem;
+	}
+
+	.bride .opening .mean {
+		max-width: 45rem;
+	}
+
+	.bride .bride1 .bride2 {
+		width: 36rem;
+	}
+
+	.bride .container1 .image2 img {
+		width: 30rem;
+	}
+
+	.bride .container1 .button2 {
+		left: 4%;
+		width: 91%;
+	}
+
+	.bride .container1 .dots2 {
+		bottom: -40px;
+		left: 31%;
+	}
+
+	.bride .container1 .dot2 {
+		width: 20px;
+		height: 20px;
+	}
+
+	.bride-woman .bride-woman1 .bride-woman2 {
+		width: 36rem;
+	}
+
+	.bride-woman .container3 .image3 img {
+		width: 30rem;
+	}
+
+	.bride-woman .container3 .button3 {
+		left: 4%;
+		width: 91%;
+	}
+
+	.bride-woman .container3 .dots3 {
+		left: 31%;
+	}
+
+	.bride-woman .container3 .dot3 {
+		width: 20px;
+		height: 20px;
+	}
+
+	.reception .time .akad {
+		max-width: 35rem;
+	}
+
+	.reception .time .akad1 {
+		max-width: 35rem;
+	}
+
+	.reception .street .address {
+		max-width: 50rem;
+		line-height: 1.5;
+	}
+
+	.reception .street p {
+		max-width: 45rem;
+	}
+
+	.location .maps iframe {
+		width: 35rem;
+		height: 30rem;
+	}
+
+	.memory .container4 .image4 img {
+		width: 30rem;
+	}
+
+	.memory .container4 .button4 {
+		left: 4%;
+		width: 91%;
+	}
+
+	.memory .container4 .dots4 {
+		left: 31%;
+	}
+
+	.memory .container4 .dot4 {
+		width: 17px;
+		height: 17px;
+	}
+
+	.memory .video .youtube iframe {
+		width: 39rem;
+		height: 25rem;
+	}
+
+	footer .socialmedia a {
+		font-size:  2.5rem;
+	}
+
+	footer .page a {
+		font-size: 1.5rem;
+	}
+
+	footer .creadit p {
+		font-size: 1.5rem;
+	}
+}
